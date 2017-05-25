@@ -1,0 +1,22 @@
+﻿빌드 시작: 2017-05-25 오후 4:22:14
+     1>2 노드의 "C:\Users\Tim\Desktop\Capstone\OS(오석관)\OS\OS.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Dev_Software\opencv2.4.10\build\x64\vc12\..\..\include /IC:\Dev_Software\opencv2.4.10\build\x64\vc12\..\..\include\opencv /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\tim\downloads\mysql-connector-c++-noinstall-1.1.7-winx64\mysql-connector-c++-noinstall-1.1.7-winx64\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'sql::SQLString'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>c:\users\tim\downloads\mysql-connector-c++-noinstall-1.1.7-winx64\mysql-connector-c++-noinstall-1.1.7-winx64\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'sql::SQLException'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>c:\users\tim\downloads\mysql-connector-c++-noinstall-1.1.7-winx64\mysql-connector-c++-noinstall-1.1.7-winx64\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'sql::SQLUnsupportedOptionException'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>c:\dev_software\opencv2.4.10\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>main.cpp(965): warning C4102: 'cv' : 참조되지 않은 레이블입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tim\Desktop\Capstone\OS(오석관)\x64\Release\OS.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Dev_Software\opencv2.4.10\build\x64\vc12\lib mysqlcppconn.lib opencv_core2410.lib opencv_imgproc2410.lib opencv_highgui2410.lib opencv_ml2410.lib opencv_video2410.lib opencv_features2d2410.lib opencv_calib3d2410.lib opencv_objdetect2410.lib opencv_contrib2410.lib opencv_legacy2410.lib opencv_flann2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tim\Desktop\Capstone\OS(오석관)\x64\Release\OS.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tim\Desktop\Capstone\OS(오석관)\x64\Release\OS.lib" /MACHINE:X64 x64\Release\blob.obj
+         x64\Release\DBConnection.obj
+         x64\Release\main.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         OS.vcxproj -> C:\Users\Tim\Desktop\Capstone\OS(오석관)\x64\Release\OS.exe
+     1>"C:\Users\Tim\Desktop\Capstone\OS(오석관)\OS\OS.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.06
